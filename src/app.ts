@@ -1,6 +1,4 @@
-import { start } from "repl";
-
-const readline = require("readline");
+import readline from "readline";
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
