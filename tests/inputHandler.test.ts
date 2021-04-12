@@ -1,11 +1,9 @@
-import { inputHandler } from '../src/inputHandler'
+const {inputHandler} = require('../src/inputHandler');
 
 describe('inputHandler', () => {
-    test('when input string is MOVE', () => {
-        it('should return an updating robot command', () => {
-            let inputStr = "MOVE";
-            let result = "MOVE";
-            expect(inputHandler(inputStr)).toEqual(result);
-        })
+    it('should return an updating robot command', () => {
+        let inputStr = "MOVE";
+        let result = "MOVE";
+        expect(inputHandler(inputStr)).toEqual(result);
     })
 })
